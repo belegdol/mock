@@ -32,3 +32,7 @@ The option can be used for issue bisecting if running the debugger is
 unnecessary. ([issue 1395][]https://github.com/rpm-software-management/mock/issues/1395)
 See [ccache documentation](https://ccache.dev/manual/4.10.html#config_hash_dir).
 This option is available since Mock 5.7.
+
+Setting `debug` to `True` creates per-object debug files that are helpful when debugging unexpected cache misses.
+See [ccache documentation](https://ccache.dev/manual/4.10.html#config_debug).
+This option is available since Mock 5.7.
